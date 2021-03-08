@@ -21,7 +21,8 @@
 <nav class="navbar">
         <div class="max-width">
             <div class="logo">
-<a href="#">Portfo<span>lio.</span></a></div>
+                <a href="#">Portfo<span>lio.</span></a>
+            </div>
 <ul class="menu">
 <li><a href="#home" class="menu-btn">Home</a></li>
 <li><a href="#about" class="menu-btn">About</a></li>
@@ -224,25 +225,21 @@ khushi.jain0704@gmail.com</div>
 <div class="column right">
                     <div class="text" style="color: rgb(185, 233, 13);">
 Message me</div>
-<form action="#">
+<form action="contact.php" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name = "name" placeholder="Name" required>
                             </div>
             <div class="field email">
-                                            <input type="email" placeholder="Email" required>
+                                            <input type="email" name = "email" placeholder="Email" required>
                                         </div>
             </div>
             <div class="field">
-                                        <input type="text" placeholder="Subject" required>
-                                    </div>
-            <div class="field textarea">
-                                        <!-- Due to more textarea, I got an error so I changed the tag name of this textarea into changeit. -->
-                                        <changeit cols="30" rows="10" placeholder="Message.." required></changeit>
+                                        <input type="text" name = "msg" placeholder="Subject" required>
                                     </div>
             <div class="button">
                 
-                                        <button type="submit">Send message</button>
+                                        <button type="submit" name="btn-send">Send message</button>
                                     </div>
 </form>
 </div>
