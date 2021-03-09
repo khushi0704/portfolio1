@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +12,24 @@ body{
     height: auto;
     width: 100%;
     animation: animation 100s linear infinite;
+}
+span{
+    font-style: italic;
+    color:chartreuse;
+    font-weight: bolder;
+}
+.main{
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.main-head{
+    color: rgb(201, 225, 226);
+    font-family: 'Anton', sans-serif;
+    text-decoration: underline;
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: 500;
 }
 
 @keyframes animation {
