@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* art design */
+body{
+    background: url("sky.jpg");
+    background-size: 100%;
+    height: auto;
+    width: 100%;
+    animation: animation 100s linear infinite;
+}
+
+@keyframes animation {
+   100%{
+    background-position:0px -3000px;
+  }
+/* web design */
+/* web dev */
+/* app soft */
+/* content writings */
+/* open source */

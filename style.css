@@ -167,7 +167,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("bg2.jpg") no-repeat center;
+    background: url("images/bg2.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -299,6 +299,13 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+.services .serv-content .card .text a{
+    color: #f1f1f1;
+}
+
+.services .serv-content .card .text a:hover{
+    color: #3cff00;
 }
 
 /* skills section styling */
