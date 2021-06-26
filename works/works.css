@@ -7,11 +7,6 @@
 }
 /* art design */
 body{
-    background: url("sky.jpg");
-    background-size: 100%;
-    height: auto;
-    width: 100%;
-    animation: animation 100s linear infinite;
 }
 span{
     font-style: italic;
@@ -81,27 +76,6 @@ span{
     text-align: center;
     color: #F1FAEE;
 }
-.developher-btn{
-    padding: 10px 30px;
-    background-color:#F1FAEE;
-    border-radius: 20px;
-    margin : 5px 0;
-    text-transform: uppercase;
-    color:  #A53860;
-    font-size: 14px;
-    font-weight: 400;
-    transition: all 0.5s;
-}
-
-.developher-btn:hover{
-transform: translateY(-2px);
-box-shadow: box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
-}
-.developher-btn:active{
-    transform:translateY(0);
-    box-shadow:none;
-}
-
 .media-link{
     width:100%;
     list-style:none;
