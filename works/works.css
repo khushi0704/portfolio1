@@ -6,8 +6,6 @@
     text-decoration: none;
 }
 /* art design */
-body{
-}
 span{
     font-style: italic;
     color:chartreuse;
@@ -54,7 +52,7 @@ span{
     justify-content:center;
     margin: 2rem 0;
     
-    box-shadow:box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
     border-radius: 0px 0px 20px 20px;
 }
 .card .card-img{
@@ -98,13 +96,29 @@ span{
 .fa-linkedin{
     color:#0077b5;
 }
-@keyframes animation {
-   100%{
-    background-position:0px -3000px;
-  }
+
  
 /* web design */
+h1{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+
+    font-family: 'Anton', sans-serif;
+    text-decoration: underline;
+    font-size: 25px;
+    margin-left: 30px;
+}
 /* web dev */
 /* app soft */
 /* content writings */
 /* open source */
+@keyframes animation {
+    100%{
+     background-position:0px -3000px;
+   }
+}
